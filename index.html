@@ -6,52 +6,82 @@
         <meta name="description" content="This is a poster for a science conference">
         <meta name="keywords" content="Science,Conference,Spikers,Timisoara">
         <meta name="author" content="Daniela Muresan">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
         <link rel="stylesheet" type="text/css" href="resources/main.css">
     </head>
     <body>
         <div class="page-wrapper">
             <header>
-                <div class="title">
-                    <h1>Scinece 
-                        <br>conference</h1> 
-                    <h2>Javascript all over again</h2>
-                </div>
+                 <h1>Scinece 
+                    <br>conference</h1> 
+                <h2>Javascript all over again</h2>
             </header>
-            <main>
-                <div class="corner-left"></div>
-                <div class="corner-right line"></div>    
-                <section>
-                    <div class="speakers">
-                        <h3>Featured speakers</h3>
-                            <div class="wrapper">
-                                <div class="JB-img">
-                                    <!-- as dori sa adaugam wrapper aici, imaginile sunt foarte distorsionate pentru ca lipsesc si nici o rezolutie nu ar trebuie sa poata cauza asta. daca nu este clar dupa hands-on de ieri sa discutam si de ce, ok? -->
-                                    <img src="assets/speaker-1.png" alt="JB-img"> John Bee
-                                </div>
-                                <div class="JF-img">
-                                    <img src="assets/speaker-2.png" alt="JF-img"> John Fox
-                                </div>
-                                <div class="JR-img">     
-                                     <img src="assets/speaker-3.png" alt="JR-img"> John Rabbit
-                                </div>
-                                <div class="FB-img">  
-                                    <img src="assets/speaker-4.png" alt="FB-img"> Frank Bow
-                                </div>
-                            </div>
+
+            <div class="corner-wrapper left">
+                <img src="assets/corner-left.png" alt="corner-left">
+            </div>
+            
+            <div class="corner-wrapper right">
+                <img src="assets/corner-right.png" alt="corner-right">
+            </div>
+           
+            <div class="event-details-wrapper">
+                <div class="event-details-content-wrapper">
+                    <div class="event-info-wrapper">
+                        <div class="icon-wrapper location">
+                            <img src="assets/icon-location.png" alt="icon-location">
+                        </div>
+                        <div>CBC,Timisoara</div>
                     </div>
-                </section>
-            </main>
-            <footer>
-                <!-- si aici aceeasi problema, plus ca textul nu are culoarea corecta -->
-                <div class="location">
-                    <img src="assets/icon-location.png" alt="icon-location"> CBC,Timisoara
+
+                    <div class="event-info-wrapper">
+                        <div class="icon-wrapper date">
+                            <img src="assets/icon-calendar.png" alt="icon-calendar">
+                        </div>
+                        <div>May 2020</div>
+                    </div>
+
+                    <div class="event-info-wrapper">
+                        <div class="icon-wrapper time">
+                            <img src="assets/icon-clock.png" alt="icon-clock">
+                        </div>
+                        <div>9:00</div>
+                    </div>
                 </div>
-                <div class="date">
-                    <img src="assets/icon-calendar.png" alt="icon-calendar"> May 2020</div>
-                <div class="time">
-                    <img src="assets/icon-clock.png" alt="icon-clock"> 9:00</div>
-            </footer> 
+            </div>
+
+            <div class="speakers-wrapper">
+                <h3>Featured speakers</h3>
+                <div class="speakers-contant-wrapper">
+                    <div class="individual-speaker-wrapper">
+                        <div class="image-wrapper">
+                            <img src="assets/speaker-1.png" alt="speaker-1">
+                        </div>
+                        <div>John Bee</div>
+                    </div>
+
+                    <div class="individual-speaker-wrapper">
+                        <div class="image-wrapper">
+                            <img src="assets/speaker-2.png" alt="speaker-2">
+                        </div>
+                        <div>John Fox</div>
+                    </div>
+
+                    <div class="individual-speaker-wrapper">
+                        <div class="image-wrapper">
+                            <img src="assets/speaker-3.png" alt="speaker-3">
+                        </div>
+                        <div>John Rabbit</div>
+                    </div>
+
+                    <div class="individual-speaker-wrapper">
+                        <div class="image-wrapper">
+                            <img src="assets/speaker-4.png" alt="speaker-4">
+                        </div>
+                        <div>Frank Bow</div>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>
